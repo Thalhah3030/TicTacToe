@@ -9,6 +9,7 @@ class TicTacToe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // title and theme
       title: (title),
       theme: ThemeData(primaryColor: Colors.amber),
       home: HomePage(title: title),
