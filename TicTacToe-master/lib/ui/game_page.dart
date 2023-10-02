@@ -14,7 +14,7 @@ class _GamePageState extends State<GamePage> {
   _GamePageState() {
     _initMatrix();
   }
-
+// page matrix
   _initMatrix() {
     _matrix = List<List>(3);
     for (var i = 0; i < _matrix.length; i++) {
